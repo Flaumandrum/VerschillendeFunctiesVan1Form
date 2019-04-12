@@ -35,36 +35,39 @@
             // 
             // btnToevoegen
             // 
-            this.btnToevoegen.Location = new System.Drawing.Point(262, 83);
+            this.btnToevoegen.Location = new System.Drawing.Point(49, 26);
             this.btnToevoegen.Name = "btnToevoegen";
             this.btnToevoegen.Size = new System.Drawing.Size(75, 23);
             this.btnToevoegen.TabIndex = 0;
             this.btnToevoegen.Text = "Toevoegen";
             this.btnToevoegen.UseVisualStyleBackColor = true;
+            this.btnToevoegen.Click += new System.EventHandler(this.btnToevoegen_Click);
             // 
             // btnAanpassen
             // 
-            this.btnAanpassen.Location = new System.Drawing.Point(262, 132);
+            this.btnAanpassen.Location = new System.Drawing.Point(49, 83);
             this.btnAanpassen.Name = "btnAanpassen";
             this.btnAanpassen.Size = new System.Drawing.Size(75, 23);
             this.btnAanpassen.TabIndex = 1;
             this.btnAanpassen.Text = "Aanpassen";
             this.btnAanpassen.UseVisualStyleBackColor = true;
+            this.btnAanpassen.Click += new System.EventHandler(this.btnAanpassen_Click);
             // 
             // btnVerwijderen
             // 
-            this.btnVerwijderen.Location = new System.Drawing.Point(262, 192);
+            this.btnVerwijderen.Location = new System.Drawing.Point(49, 143);
             this.btnVerwijderen.Name = "btnVerwijderen";
             this.btnVerwijderen.Size = new System.Drawing.Size(75, 23);
             this.btnVerwijderen.TabIndex = 2;
             this.btnVerwijderen.Text = "Verwijderen";
             this.btnVerwijderen.UseVisualStyleBackColor = true;
+            this.btnVerwijderen.Click += new System.EventHandler(this.btnVerwijderen_Click);
             // 
             // StartForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(175, 204);
             this.Controls.Add(this.btnVerwijderen);
             this.Controls.Add(this.btnAanpassen);
             this.Controls.Add(this.btnToevoegen);
