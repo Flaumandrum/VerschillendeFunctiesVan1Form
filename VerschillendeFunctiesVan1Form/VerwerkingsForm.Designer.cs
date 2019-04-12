@@ -54,6 +54,7 @@
             this.btnTerug.TabIndex = 1;
             this.btnTerug.Text = "Terug";
             this.btnTerug.UseVisualStyleBackColor = true;
+            this.btnTerug.Click += new System.EventHandler(this.btnTerug_Click);
             // 
             // cmbSelecteren
             // 

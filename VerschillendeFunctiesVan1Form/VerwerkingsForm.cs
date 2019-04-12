@@ -40,7 +40,7 @@ namespace VerschillendeFunctiesVan1Form
                 txtIngeven.Visible = true;
                 btnActie.Text = "veranderen";
             }
-            else if (actie == "veranderen")
+            else if (actie == "verwijderen")
             {
                 // vul hier ook de combobox
 
@@ -83,6 +83,11 @@ namespace VerschillendeFunctiesVan1Form
                 // roep dan de methodes op uit de business om gegevens te verwijderen
             }
 
+        }
+
+        private void btnTerug_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }
